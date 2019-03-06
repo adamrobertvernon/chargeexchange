@@ -8,7 +8,7 @@ Ryder, C.a., K. Minamisono, H.B. Asberry, B. Isherwood, P.F. Mantica, a. Miller,
 
 Rapp, Donald, and W. E. Francis. 1962. “Charge Exchange between Gaseous Ions and Atoms.” The Journal of Chemical Physics 37 (11): 2631. https://doi.org/10.1063/1.1733066.
 
-#Setup
+# Setup
 Requires Mathematica >10 
 Tested only on Linux so far
 
