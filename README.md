@@ -14,7 +14,7 @@ Tested only on Linux so far
 
 ## Create a script to run Mathematica commands from Python (From [Danilo Araújo Silva](http://sapiensgarou.blogspot.com/2012/06/how-to-run-mathematica-functions-on.html)):
 
-"Create a script named runMath with the content:
+Create a script named runMath with the content:
 
     #!/usr/local/bin/MathematicaScript -script
 
@@ -26,11 +26,12 @@ Tested only on Linux so far
     Print[value];
 
 Give execution privilege to the file:
+
     sudo chmod +x runMath
 
 Move the file to the execution path:
 
-    sudo mv runMath /usr/bin/"
+    sudo mv runMath /usr/bin/
     
 If you change the location of the script you must also update "RF_mathematica.py"
 
