@@ -12,16 +12,13 @@ Rapp, Donald, and W. E. Francis. 1962. “Charge Exchange between Gaseous Ions a
 Requires Mathematica >10 
 Tested only on Linux so far
 
-## Create a script to run Mathematica commands from Python (From [Danilo Araújo Silva](http://sapiensgarou.blogspot.com/2012/06/how-to-run-mathematica-functions-on.html)):
+## Create a script to run Mathematica commands from Python (suggested by [Danilo Araújo Silva](http://sapiensgarou.blogspot.com/2012/06/how-to-run-mathematica-functions-on.html)):
 
 Create a script named runMath with the content:
 
     #!/usr/local/bin/MathematicaScript -script
 
     value=ToExpression[$ScriptCommandLine[[2]]];
-
-    (*The next line prints the script name.*)
-    (*Print[$ScriptCommandLine[[1]]];*)
 
     Print[value];
 
